@@ -16,7 +16,7 @@ section {
 
 .grid {
   display: grid;
-  grid-template-rows: 1fr 80vh;
+  grid-template-rows: 1fr 400px 230px;
   grid-template-columns: 600px 1fr;
 }
 
@@ -38,4 +38,24 @@ li {
 
 li:hover {
   color: #9bc53d;
+}
+
+.square {
+  grid-row: 3;
+  grid-column: 1;
+  width: 365px;
+  height: auto;
+  background: #194f82;
+  margin-left: 150px;
+  border-radius: 35px 35px 0 0;
+}
+.square2 {
+  grid-row: 3;
+  grid-column: 1;
+  width: 100px;
+  height: auto;
+  background: white;
+  margin-left: 150px;
+  border-radius: 35px 0 0 0;
+  box-shadow: black 0 10px 5px;
 }
