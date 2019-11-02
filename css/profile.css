@@ -16,8 +16,8 @@ section {
 
 .grid {
   display: grid;
-  grid-template-rows: 1fr 400px 230px;
-  grid-template-columns: 600px 1fr;
+  grid-template-rows: 1fr 2fr 2fr;
+  grid-template-columns: 1fr 2fr;
 }
 
 ul {
