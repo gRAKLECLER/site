@@ -30,6 +30,7 @@ li {
 
 li:hover {
   color: #574d68;
+  opacity: 0.7;
 }
 
 a {
