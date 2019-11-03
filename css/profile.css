@@ -45,6 +45,10 @@ a {
   color: black;
 }
 
+.arrow:hover {
+  color: #9bc53d;
+}
+
 .square {
   grid-row: 3;
   grid-column: 1;
