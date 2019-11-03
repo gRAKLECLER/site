@@ -8,7 +8,7 @@
 
 .grid {
   display: grid;
-  grid-template-rows: 1fr 400px 230px;
+  grid-template-rows: 1fr 80vh;
   grid-template-columns: 1fr 1fr;
 }
 
@@ -35,4 +35,41 @@ li:hover {
 a {
   text-decoration: none;
   color: black;
+}
+
+.rightv {
+  width: 100%;
+  grid-row: 2;
+  grid-column: 2;
+  margin-left: -50px;
+  margin-top: 10%;
+  border-radius: 35px;
+}
+
+.flexbox2 {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.video1 {
+  position: absolute;
+  z-index: -1;
+  margin-top: -20%;
+  border-radius: 35px;
+}
+
+.video2 {
+  position: absolute;
+  z-index: 0;
+  border-radius: 35px;
+}
+
+.video3 {
+  position: absolute;
+  z-index: -1;
+  margin-top: 20%;
+  border-radius: 35px;
 }
