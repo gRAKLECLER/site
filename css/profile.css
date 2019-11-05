@@ -76,7 +76,6 @@ a {
 .square3 {
   position: absolute;
   z-index: 0;
-
   width: 660px;
   height: 514px;
   background: grey;
